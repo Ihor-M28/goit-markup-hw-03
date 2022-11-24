@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -11,108 +12,153 @@
         href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
         rel="stylesheet" />
     <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css" />
+    <link rel="stylesheet" href="./css/style.css" />
 </head>
+
 <body>
-    <header>
-        <a class="logo" href='./index.html'>Web<span class="logoheader">Studio</span></a>
-        <nav>
-            <ul>
-                <li><a class="lis-a" href="./index.html">Студія</a></li>
-                <li><a class="lis-b" href="">Портфоліо</a></li>
-                <li><a class="lis-b" href="">Контакти</a></li>
-        </nav>
-        <ul>
-            <li><a class="lis-a" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-            <li><a class="lis-b" href="tel:+380961111111">+380961111111</a></li>
+    <!--Header-->
+    <header class="header-site">
+        <div class="container mine-nav">
+            <nav class="nav-header">
+                <a class="logo link" lang="en" href="./index.html"><span class="web">Web</span>Studio</a>
+
+                <ul class="site-nav list">
+                    <li><a class="link" href="./index.html">Студія</a></li>
+                    <li><a class="link current" href="./portfolio.html">Портфоліо</a></li>
+                    <li><a class="link" href="">Контакти</a></li>
+                </ul>
+            </nav>
+            <ul class="site-contacts list">
+                <li>
+                    <a class="link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                </li>
+                <li><a class="link" href="tel:+380961111111">+38 096 111 11 11</a></li>
+        </div>
         </ul>
     </header>
+    <!--MAIN-->
     <main>
-        <section class="section-card link">
+        <!--Section 1-->
+        <section class="section">
             <h1 class="visually-hidden">Portfolio</h1>
-            <ul class="button list">
-                <li><button type="button" class="button-card">Усі</button></li>
-                <li><button type="button" class="button-card">Веб-сайти</button></li>
-                <li><button type="button" class="button-card">Додатки</button></li>
-                <li><button type="button" class="button-card">Дизайн</button></li>
-                <li><button type="button" class="button-card">Маркетинг</button></li>
-            </ul>
-            <ul class="boxes list">
-                <li class="boxes-top">
-                    <a href="#" class="link">
-                        <img src="./img/technoriak(1).jpg" alt="Technokrat" width="370" />
-                        <h2 class="boxes-title">Технокряк</h2>
-                        <p class="boxes-text">Веб-сайт</p>
-                    </a>
-                </li>
-                <li class="boxes-top">
-                    <a href="#" class="link">
-                        <img src="./img/poster(1).jpg" alt="Poster" width="370" />
-                        <h2 class="boxes-title">Постер New Orlean vs Golden Star</h2>
-                        <p class="boxes-text">Дизайн</p>
-                    </a>
-                </li>
-                <li class="boxes-top">
-                    <a href="#" class="link">
-                        <img src="./img/seafood(1).jpg" alt="Restaurant" width="370" />
-                        <h2 class="boxes-title">Ресторан Seafood</h2>
-                        <p class="boxes-text">Додаток</p>
-                    </a>
-                </li>
-                <li class="boxes-top">
-                    <a href="#" class="link">
-                        <img src="./img/prime.jpg" alt="Headphone" width="370" />
-                        <h2 class="boxes-title">Проєкт Prime</h2>
-                        <p class="boxes-text">Маркетинг</p>
-                    </a>
-                </li>
-                <li class="boxes-top">
-                    <a href="#" class="link">
-                        <img src="./img/boxes(1).jpg" alt="Box" width="370" />
-                        <h2 class="boxes-title">Проєкт Boxes</h2>
-                        <p class="boxes-text">Додаток</p>
-                    </a>
-                </li>
-                <li class="boxes-top">
-                    <a href="#" class="link">
-                        <img src="./img/lemited(1).jpg" alt="Computer" width="370" />
-                        <h2 class="boxes-title">Inspiration has no Borders</h2>
-                        <p class="boxes-text">Веб-сайт</p>
-                    </a>
-                </li>
-                <li class="boxes-top">
-                    <a href="#" class="link">
-                        <img src="./img/inspiration.jpg" alt="Edition" width="370" />
-                        <h2 class="boxes-title">Видання Limited Edition</h2>
-                        <p class="boxes-text">Дизайн</p>
-                    </a>
-                </li>
-                <li class="boxes-top">
-                    <a href="#" class="link">
-                        <img src="./img/LAB.jpg" alt="Labet" width="370" />
-                        <h2 class="boxes-title">Проєкт LAB</h2>
-                        <p class="boxes-text">Маркетинг</p>
-                    </a>
-                </li>
-                <li class="boxes-top">
-                    <a href="#" class="link">
-                        <img src="./img/Growing.jpg" alt="Laptop" width="370" />
-                        <h2 class="boxes-title">Growing Business</h2>
-                        <p class="boxes-text">Додаток</p>
-                    </a>
-                </li>
-            </ul>
-            </section>
-            </main>
-            <footer>
-                <a class="logo" href='./index.html'>Web<span class="logoheader">Studio</span></a>
-                <address>
-                    <ul>
-                        <li> <a class="street" href="https://goo.gl/maps/SQMBnQ5JrjQnpqjb7" target="_blank"
-                                rel="noreferrer noopener">м. Київ, пр-т Лесі Українки,26</a></li>
-                        <li><a class="contact" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                        <li><a class="contact" href="tel:+380961111111">+380961111111</a></li>
-                    </ul>
-                </address>
-            </footer>
-            </body>
-          </html>
+            <div class="container">
+                <ul class="button list">
+                    <li><button type="button" class="button-card">Усі</button></li>
+                    <li><button type="button" class="button-card">Веб-сайти</button></li>
+                    <li><button type="button" class="button-card">Додатки</button></li>
+                    <li><button type="button" class="button-card">Дизайн</button></li>
+                    <li><button type="button" class="button-card">Маркетинг</button></li>
+                </ul>
+                <!--<div class= "container">-->
+                <ul class="boxes list">
+                    <li class="boxes-top">
+                        <a href="#" class="link">
+                            <img src="./img/technoriak(1).jpg" alt="Technokrat" width="370" />
+                            <div class="card-content">
+                                <h2 class="boxes-title">Технокряк</h2>
+                                <p class="boxes-text">Веб-сайт</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="boxes-top">
+                        <a href="#" class="link">
+                            <img src="./img/poster(1).jpg" alt="Poster" width="370" />
+                            <div class="card-content">
+                                <h2 class="boxes-title">Постер New Orlean vs Golden Star</h2>
+                                <p class="boxes-text">Дизайн</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="boxes-top">
+                        <a href="#" class="link">
+                            <img src="./img/seafood(1).jpg" alt="Restaurant" width="370" />
+                            <div class="card-content">
+                                <h2 class="boxes-title">Ресторан Seafood</h2>
+                                <p class="boxes-text">Додаток</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="boxes-top">
+                        <a href="#" class="link">
+                            <img src="./img/prime.jpg" alt="Headphone" width="370" />
+                            <div class="card-content">
+                                <h2 class="boxes-title">Проєкт Prime</h2>
+                                <p class="boxes-text">Маркетинг</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="boxes-top">
+                        <a href="#" class="link">
+                            <img src="./img/boxes(1).jpg" alt="Box" width="370" />
+                            <div class="card-content">
+                                <h2 class="boxes-title">Проєкт Boxes</h2>
+                                <p class="boxes-text">Додаток</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="boxes-top">
+                        <a href="#" class="link">
+                            <img src="./img/lemited(1).jpg" alt="Computer" width="370" />
+                            <div class="card-content">
+                                <h2 class="boxes-title">Inspiration has no Borders</h2>
+                                <p class="boxes-text">Веб-сайт</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="boxes-top">
+                        <a href="#" class="link">
+                            <img src="./img/inspiration.jpg" alt="Edition" width="370" />
+                            <div class="card-content">
+                                <h2 class="boxes-title">Видання Limited Edition</h2>
+                                <p class="boxes-text">Дизайн</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="boxes-top">
+                        <a href="#" class="link">
+                            <img src="./img/LAB.jpg" alt="Labet" width="370" />
+                            <div class="card-content">
+                                <h2 class="boxes-title">Проєкт LAB</h2>
+                                <p class="boxes-text">Маркетинг</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="boxes-top">
+                        <a href="#" class="link">
+                            <img src="./img/Growing.jpg" alt="Laptop" width="370" />
+                            <div class="card-content">
+                                <h2 class="boxes-title">Growing Business</h2>
+                                <p class="boxes-text">Додаток</p>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+        </section>
+    </main>
+    <!--FOOTER-->
+    <footer class="footer-info">
+        <div class="container">
+            <a lang="en" href="./index.html" class="logo-footer link"><span class="footer-logo">Web</span>Studio</a>
+            <address class="add-full">
+                <ul class="footer-contakt list">
+                    <li class="item">
+                        <a class="footer-adr link" href="https://goo.gl/maps/CPtrU1FHBa2aNyZL9" target="_blank"
+                            rel="noopener noreferrer nofollow" class="link">м. Київ, пр-т Лесі Українки, 26</a>
+                    </li>
+                    <li class="item">
+                        <a class="footer-person link" href="mailto:info@devstudio.com"
+                            class="link">info@devstudio.com</a>
+                    </li>
+                    <li class="item">
+                        <a class="footer-person link" href="tel:+380961111111" class="link">+38 096 111 11 11</a>
+                    </li>
+                </ul>
+            </address>
+        </div>
+    </footer>
+</body>
+
+</html>
